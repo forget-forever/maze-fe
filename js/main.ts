@@ -4,6 +4,8 @@ import BackGround from './runtime/background'
 import GameInfo from './runtime/gameinfo'
 import Music from './runtime/music'
 import DataBus from './databus'
+import { canvas } from './libs/weapp-adapter'
+
 
 const ctx = canvas.getContext('2d')
 const databus = new DataBus()
@@ -12,11 +14,26 @@ const databus = new DataBus()
  * 游戏主函数
  */
 export default class Main {
+  aniId: number
   constructor() {
+    
     // 维护当前requestAnimationFrame的id
     this.aniId = 0
 
     this.restart()
+    var reqTask = wx.request({
+      url: '',
+      data: {},
+      header: {'content-type':'application/json'},
+      method: 'GET',
+      dataType: 'json',
+      responseType: 'text',
+      success: (result)=>{
+        
+      },
+      fail: ()=>{},
+      complete: ()=>{}
+    });
   }
 
   restart() {

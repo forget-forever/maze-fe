@@ -26,7 +26,8 @@
       
       // "@/request/*": ["./src/lib/request/*"],
       // "@/api": ["./src/api"],
-    }
+    },
+    "types": ["wechat-miniprogram"]
   },
   "exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"],
   "compileOnSave": false

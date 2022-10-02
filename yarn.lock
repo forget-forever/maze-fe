@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.19.tgz#ad83aa9b7af470fab7e0f562be87e97dc8ffe08e"
   integrity sha512-Sq1itGUKUX1ap7GgZlrzdBydjbsJL/NSQt/4wkAxUJ7/OS5c2WkoN6WSpWc2Yc5wtKMZOUA0VCs/j2XJadN3HA==
 
+"@types/wechat-miniprogram@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@types/wechat-miniprogram/-/wechat-miniprogram-3.4.1.tgz#e237ebaa5f541b816ca2ab648e40b74faeb014cb"
+  integrity sha512-szbuYR32VotxNQNQ4YyQ6Ob3ya0tLY0zpf/xvi6DF8Oqb+0Y+5CL5BpxS+4wBSJvlu3VfSXhjxZ0ze1a3l16Pw==
+
 typescript@^4.8.3:
   version "4.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"

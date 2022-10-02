@@ -18,7 +18,6 @@ export default class GameInfo {
 
   renderGameOver(ctx, score) {
     ctx.drawImage(atlas, 0, 0, 119, 108, screenWidth / 2 - 150, screenHeight / 2 - 100, 300, 300)
-
     ctx.fillStyle = '#ffffff'
     ctx.font = '20px Arial'
 
